@@ -7,7 +7,43 @@ h1{
     font-size: 3em;
     font-weight: bold;
 }
-main{
+img{
+    width: 200px;
+    height: 200px;
+}
+#horn-container{
+    width: 100vw;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+#horn-template{
+    padding: 10px;
+    margin:5px;
+}
+p{
+    font-size: .8em;
+    margin: 5%;
+    width: 180px;
+}
+select {
+    margin: 10px 0 10px 45%;
+}
+h2{
+    text-align: center;
+    width: 200px;
+}
+/* div{
+    float: left;
+    padding: 5px;
+    width: 200px;
+    height: 300px;
+    background-color: #f1f1f1;
+    margin: 5px;
+} */
+
+
+/* main{
     overflow: hidden;
     margin: 0 auto;
 
@@ -51,4 +87,4 @@ p{
 
 footer{
     clear: both;
-}
+} */
