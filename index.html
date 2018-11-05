@@ -20,41 +20,31 @@
   <body>
     <header>
       <nav>
-        <ul>
-          <li><a href="#" id="1">Page 1</a></li>
-          <li><a href="#" id="2">Page 2</a></li>
-          <li><a href="#" id="all">Show All</a></li>
-        </ul>
       </nav>
       <h1>The Gallery of Horns</h1>
         <select class="select">
-            <option>Filter by Keyword</option>
+            <option value="showAll">Filter by Keyword</option>
         </select>
     </header>
 
     <main>
-      <section id="horn-container"></section>
-      <!-- first page section
-      <section id="photo-template">
-        <h2></h2>
-        <img src="" alt="">
-        <p></p>
-      </section> -->
+        <form id="sortBy">
+            Sort By : 
+            <label><input name="sort" data-sortby="title" type="radio"> Title</label>
+            <label><input name="sort" data-sortby="horns" type="radio"> Horns</label>
+          </form>
 
-      <!-- seconded page section
-      <section id="photo-template-2">
-          <h2></h2>
-          <img src="" alt="">
-          <p></p>
-        </section> -->
-
-
-
+        <div id="horn-container"></div>
 
     </main>
     
     <footer>
-      &copy; 2018 Code Fellows
+        <ul id="page">
+            <li><a href="#" id="1">Page 1</a></li>
+            <li><a href="#" id="2">Page 2</a></li>
+            <li><a href="#" id="all">Show All</a></li>
+          </ul>
+      &copy; 2018 Code Fellows Carlos & Tanner
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.12/handlebars.min.js"></script>
